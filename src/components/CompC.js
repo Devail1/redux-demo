@@ -1,4 +1,3 @@
-import React from 'react'
 import { compCIncrementAction, compCSelector, COMP_C_INCREMENT_COUNTER } from "../features/CompC/compCSlice"
 import { useDispatch, useSelector } from 'react-redux';
 
