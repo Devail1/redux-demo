@@ -1,9 +1,8 @@
-import { COMP_A_INCREMENT_COUNTER } from "../../redux/constants/constants";
+export const COMP_A_INCREMENT_COUNTER = 'counterA/INCREMENT'
 
 const initialState = {
   counter: 0,
 };
-
 
 export function compAReducer(state = initialState, action) {
   switch (action.type) {

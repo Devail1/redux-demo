@@ -1,7 +1,7 @@
 import React from 'react'
-import { compCIncrementAction, compCSelector } from "../features/CompC/compCSlice"
+import { compCIncrementAction, compCSelector, COMP_C_INCREMENT_COUNTER } from "../features/CompC/compCSlice"
 import { useDispatch, useSelector } from 'react-redux';
-import { COMP_C_INCREMENT_COUNTER } from '../redux/constants/constants';
+
 export default function CompC() {
   console.log("comp C rendered");
   const dispatch = useDispatch()

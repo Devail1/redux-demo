@@ -1,4 +1,4 @@
-import { COMP_C_INCREMENT_COUNTER } from "../../redux/constants/constants";
+export const COMP_C_INCREMENT_COUNTER = 'counterC/INCREMENT'
 
 const initialState = {
   counter: 0,

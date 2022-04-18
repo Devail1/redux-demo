@@ -1,7 +1,6 @@
-import React from 'react'
-import { compAIncrementAction, compASelector } from "../features/CompA/compASlice"
+import { compAIncrementAction, compASelector, COMP_A_INCREMENT_COUNTER } from "../features/CompA/compASlice"
 import { useDispatch, useSelector } from 'react-redux';
-import { COMP_A_INCREMENT_COUNTER } from '../redux/constants/constants';
+
 export default function CompA() {
   console.log("comp A rendered");
   const dispatch = useDispatch()

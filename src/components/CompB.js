@@ -1,7 +1,6 @@
-import React from 'react'
-import { compBIncrementAction, compBSelector } from "../features/CompB/compBSlice"
+import { compBIncrementAction, compBSelector, COMP_B_INCREMENT_COUNTER } from "../features/CompB/compBSlice"
 import { useDispatch, useSelector } from 'react-redux';
-import { COMP_B_INCREMENT_COUNTER } from '../redux/constants/constants';
+
 export default function CompB() {
   console.log("comp B rendered");
   const dispatch = useDispatch()
